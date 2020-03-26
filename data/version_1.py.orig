@@ -6,33 +6,37 @@ def process(command):
 
     _len = len(command)
 
-    flag = True
-    tmp = ''
-    op = ''
-    num1 = ''
-    num2 = ''
+    _len=len(command)
+
+    flag=True
+    tmp=''
+    op=''
+    num1=''
+    num2=''
+
+    print("In version 2, additonal operations has been supported")
 
     for i in range(_len):
-        if command[i] != ' ':
-            tmp += command[i]
+        if command[i]!=' ':
+            tmp+=command[i]
         else:
-            if tmp == 'and':
-                tmp = ''
+            if tmp=='and':
+                tmp=''
                 continue
 
-            if op == '':
-                op = tmp
+            if op=='':
+                op=tmp
 
                 if op not in supported_op:
-                    flag = False
+                    flag=False
                     break
 
-            elif num1 == '':
-                num1 = int(tmp)
-            tmp = ''
+            elif num1=='':
+                num1=int(tmp)
+            tmp=''
 
-    if flag == True and num2 == '':
-        num2 = int(tmp)
+    if flag==True and num2=='':
+        num2=int(tmp)
 
     result = 0
 

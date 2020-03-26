@@ -1,0 +1,12 @@
+***************
+*** 4 ****
+-     print("Given a math operation command, the program parses and performs it")
+--- 4,5 ----
++     supported_op = ['add']
++     # command = "add 20 and 3"
+***************
+*** 6,7 ****
+-     supported_op=['add','subtract','multiply','subtract','divide']
+-     # command="divide 20 and 10"
+--- 7 ----
++     _len = len(command)

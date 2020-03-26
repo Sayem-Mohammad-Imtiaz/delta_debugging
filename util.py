@@ -19,7 +19,7 @@ def create_filter_diff(c):
 
     p_status = p.wait()
 
-    print("Command output: " + str(output))
+    # print("Command output: " + str(output))
 
     return filter_diff_file_name
 
@@ -33,7 +33,7 @@ def apply_patch(c):
 
     p_status = p.wait()
 
-    print("Command output: " + str(output))
+    # print("Command output: " + str(output))
 
 def reverse_patch(c):
     command = "cd data\npatch -R < "+create_filter_diff(c)
@@ -44,7 +44,7 @@ def reverse_patch(c):
 
     p_status = p.wait()
 
-    print("Command output: " + str(output))
+    # print("Command output: " + str(output))
 
 # apply_patch([1,2])
-reverse_patch([1,2])
+# reverse_patch([1,2])
