@@ -1,0 +1,28 @@
+--- data/version_1.py	2020-03-25 23:05:07.000000000 -0500
++++ data/version_2.py	2020-03-25 23:11:40.000000000 -0500
+@@ -0,0 +1 @@
++print("Given a math operation command, the program parses and performs it")
+@@ -2,2 +3,2 @@
+-supported_op=['add']
+-command="add 20 and 3"
++supported_op=['add','subtract','multiply','subtract','divide']
++command="divide 20 and 10"
+@@ -12,0 +14,2 @@
++print("In version 2, additonal operations has been supported")
++
+@@ -38 +41 @@
+-    print("Invalid command")
++    print(op+" operation not supported")
+@@ -42,0 +46,12 @@
++    if op=='subtract':
++        result=num1-num2
++
++    if op=='multiply':
++        result=num1*num2
++
++    if op=='divide':
++        result=num1/num2
++
++    #result casted to int
++    result=int(result)
++

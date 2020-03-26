@@ -1,0 +1,12 @@
+***************
+*** 2,3 ****
+- supported_op=['add']
+- command="add 20 and 3"
+--- 3,4 ----
++ supported_op=['add','subtract','multiply','subtract','divide']
++ command="divide 20 and 10"
+***************
+*** 38 ****
+-     print("Invalid command")
+--- 41 ----
++     print(op+" operation not supported")
