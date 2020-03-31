@@ -12,7 +12,7 @@ def create_filter_diff(c):
 
     command = "cd data\nfilterdiff -#"+changes+" diff.patch > "+filter_diff_file_name
 
-    print(command)
+    # print(command)
     p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 
     (output, err) = p.communicate()

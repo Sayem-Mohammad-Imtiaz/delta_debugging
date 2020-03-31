@@ -1,13 +1,5 @@
---- data/version_1.py	2020-03-26 04:21:50.000000000 -0500
+--- data/version_1.py	2020-03-27 19:37:40.000000000 -0500
 +++ data/version_2.py	2020-03-26 00:05:16.000000000 -0500
-@@ -4,2 +4 @@
--    supported_op = ['add']
--    # command = "add 20 and 3"
-+    print("Given a math operation command, the program parses and performs it")
-@@ -7 +6,2 @@
--    _len = len(command)
-+    supported_op=['add','subtract','multiply','subtract','divide']
-+    # command="divide 20 and 10"
 @@ -41 +41 @@
 -    result = 0
 +    result=0

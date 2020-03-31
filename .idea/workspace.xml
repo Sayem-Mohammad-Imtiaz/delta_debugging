@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997b0e79-c15c-4b14-8989-36b3348c9c86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/diff.patch" beforeDir="false" afterPath="$PROJECT_DIR$/data/diff.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/filter_diff.patch" beforeDir="false" afterPath="$PROJECT_DIR$/data/filter_diff.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/version_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/version_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/version_1.py.orig" beforeDir="false" afterPath="$PROJECT_DIR$/data/version_1.py.orig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delta_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/delta_debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diff.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_1.py.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_1.py.rej" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,29 +181,29 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="464" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.822@0.23.1440.822" timestamp="1585197135827" />
-    <state width="1379" height="198" key="GridCell.Tab.0.bottom" timestamp="1585215017548">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1379" height="312" key="GridCell.Tab.0.bottom" timestamp="1585613213722">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1379" height="198" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1585201794224" />
-    <state width="1379" height="198" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585211369559" />
+    <state width="1379" height="312" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585613213722" />
     <state width="1379" height="198" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585215017548" />
-    <state width="1379" height="198" key="GridCell.Tab.0.center" timestamp="1585215017546">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1379" height="312" key="GridCell.Tab.0.center" timestamp="1585613213720">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1379" height="198" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1585201794223" />
-    <state width="1379" height="198" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585211369557" />
+    <state width="1379" height="312" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585613213720" />
     <state width="1379" height="198" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585215017546" />
-    <state width="1379" height="198" key="GridCell.Tab.0.left" timestamp="1585215017545">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1379" height="312" key="GridCell.Tab.0.left" timestamp="1585613213719">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1379" height="198" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1585201794222" />
-    <state width="1379" height="198" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585211369556" />
+    <state width="1379" height="312" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585613213719" />
     <state width="1379" height="198" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585215017545" />
-    <state width="1379" height="198" key="GridCell.Tab.0.right" timestamp="1585215017547">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1379" height="312" key="GridCell.Tab.0.right" timestamp="1585613213721">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1379" height="198" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1585201794224" />
-    <state width="1379" height="198" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585211369558" />
+    <state width="1379" height="312" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585613213721" />
     <state width="1379" height="198" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1585215017547" />
     <state width="1379" height="248" key="GridCell.Tab.1.bottom" timestamp="1585211304812">
       <screen x="0" y="23" width="1440" height="823" />
@@ -234,10 +225,10 @@
     </state>
     <state width="1379" height="248" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1585198166356" />
     <state width="1379" height="248" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1585211304811" />
-    <state x="229" y="74" key="SettingsEditor" timestamp="1585208830005">
+    <state x="229" y="74" key="SettingsEditor" timestamp="1585357157201">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="229" y="74" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585208830005" />
+    <state x="229" y="74" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585357157201" />
     <state x="399" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1585212088672">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
@@ -252,12 +243,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/data/version_1.py</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm.py</url>
-          <line>8</line>
+          <line>10</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

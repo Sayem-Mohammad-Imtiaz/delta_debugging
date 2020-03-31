@@ -32,6 +32,11 @@ for i in range(1,total_change+1):
     c.append(i)
 
 bug_changes=[]
-dd2(c,r,2,bug_changes)
+rounds=[]
+dd2(c,r,2,bug_changes, rounds)
 
+print("Result: ")
+print("Round       Configuration         Status")
+for _r in rounds:
+    print(_r)
 print("Buggy changes are: ", bug_changes)

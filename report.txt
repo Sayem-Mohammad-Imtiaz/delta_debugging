@@ -1,0 +1,51 @@
+::Target Program::
+
+As has been discussed in delta_debugging/data/readme.txt, second version of the target program contains in total 18 change sets from first version. Among which change block no. 15 introduces divide by zero error for no guard condition. 
+
+
+::Tool Result::
+
+Algorithm 1 couldn't narrow down the change sets to identify the bug induing change(s) at all since some configurations result in unresolved cases. Therefore, I have implemented second algorithm from the paper to handle inconsistencies also. Tool run results included below:
+
+				Print total change sets: 18
+				Result: 
+				Round       Configuration         Status
+				Round 1: 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 2: 10 11 12 13 14 15 16 17 18 ==> PASS
+				Round 3: 1 2 3 4 10 11 12 13 14 15 16 17 18 ==> FAIL
+				Round 4: 1 2 10 11 12 13 14 15 16 17 18 ==> FAIL
+				Round 5: 1 10 11 12 13 14 15 16 17 18 ==> FAIL
+				Round 6: 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 7: 14 15 16 17 18 1 2 3 4 5 6 7 8 9 ==> UNRESOLVED
+				Round 8: 14 15 16 17 18 1 2 3 4 5 6 7 8 9 ==> UNRESOLVED
+				Round 9: 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 10: 14 15 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 11: 16 17 18 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 12: 14 16 17 18 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 13: 15 16 17 18 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> FAIL
+				Round 14: 15 16 17 18 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> FAIL
+				Round 15: 16 14 15 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 16: 17 18 14 15 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> FAIL
+				Round 17: 17 14 15 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> PASS
+				Round 18: 16 18 14 15 10 11 12 13 1 2 3 4 5 6 7 8 9 ==> FAIL
+				
+				('Buggy changes are: ', [1, 15, 18]) 
+
+
+As we can see, it could narrow down the change set of 18 items to 3 change sets where one of them (15) contains bug inducing change.
+
+
+::Observation::
+
+1. Algorithm 1 is too simplistic to apply in real world programs as has been observed in this experiment.
+
+2. Algorithm 2 can handle inconsistencies. However, it's not a perfect algorithm either which is visible from the results obtained. The best result should have returned only one change in this case since 15 is the only bug inducing change. However, it identified 3 changes applied together to be bug inducing. 
+
+
+::Findings::
+
+In my opinion, the reason for algorithm 2 not obtaining best perfect result is, it assumes a particular order of changes and splits in that order only. That order is random. Chronological order of the changes would have produced better results in my opinion. Also, splitting mechnaism only increases by a factor of 2 in each try again scenario which may not work well. Why not split by factor of 3 or other number also? This is another reason it may not achieve best result. So, despite being an wonderful idea, there are many scopes to improve this algorithm.
+
+
+::Extra Credit::
+I didn't test this tool on find programs as instructed in assignment which would require us to implement algorithm 2 from paper. However, the program I experimented on also required me to implement algorithm 2. I hope, implementing algorithm 2 and showing it works, would bring me some extra credits.

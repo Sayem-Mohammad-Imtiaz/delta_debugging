@@ -1,10 +1,10 @@
 import sys
 
 def process(command):
-    supported_op = ['add']
-    # command = "add 20 and 3"
+    print("Given a math operation command, the program parses and performs it")
 
-    _len = len(command)
+    supported_op=['add','subtract','multiply','subtract','divide']
+    # command="divide 20 and 10"
 
     _len=len(command)
 
